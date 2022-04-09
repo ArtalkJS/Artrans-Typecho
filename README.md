@@ -1,6 +1,6 @@
 # ✨ Artrans-Typecho
 
-Typecho 插件导出评论数据为 Artrans 格式
+Typecho 插件导出评论数据为 [Artrans 格式](https://artalk.js.org/guide/transfer.html)
 
 ## 食用方法
 
