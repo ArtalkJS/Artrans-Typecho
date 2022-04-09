@@ -23,4 +23,10 @@ class ArtransExporter_Plugin implements Typecho_Plugin_Interface {
         Helper::removeAction('ArtransAction');
         Helper::removePanel(1, 'ArtransExporter/Panel.php');
     }
+    
+    /** 获取插件配置面板 */
+    public static function config(Typecho_Widget_Helper_Form $form){}
+
+    /** 个人用户的配置面板 */
+    public static function personalConfig(Typecho_Widget_Helper_Form $form){}
 }
